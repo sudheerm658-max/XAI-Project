@@ -1,0 +1,116 @@
+conversation_id,created_at,estimated_cost,grok_model,id,processing_time_ms,sentiment,summary,tokens_used,topics,updated_at
+99,2026-02-08T19:41:43,$0.000066,,99,377,neutral,@115743 There is no info to share at the moment. Feel free to keep an eye on the PS Blog for news and updates: https://t.co/aLtfBAztyC,33,"['moment', 'updates']",2026-02-08T19:41:43
+100,2026-02-08T19:41:43,$0.000024,,100,330,neutral,@AskPlayStation @115743 Can I get help already??,12,['already'],2026-02-08T19:41:43
+96,2026-02-08T19:41:42,$0.000040,,96,341,positive,Considering walking to @ChipotleTweets in my llama onesie alone happy Halloween 😭,20,"['considering', 'walking', 'onesie', 'halloween']",2026-02-08T19:41:42
+97,2026-02-08T19:41:42,$0.000028,,97,334,positive,@115742 I love it! Thanks so much for stopping by. -Becky,14,['stopping'],2026-02-08T19:41:42
+98,2026-02-08T19:41:42,$0.000048,,98,350,neutral,@ChipotleTweets name a better halloween duo #speedwaybrick #UTtranscript https://t.co/5ShDRMlC1T,24,"['better', 'halloween']",2026-02-08T19:41:42
+93,2026-02-08T19:41:41,$0.000028,,93,332,neutral,@ChipotleTweets Also I got the onesie at target. So cozy,14,"['onesie', 'target']",2026-02-08T19:41:41
+94,2026-02-08T19:41:41,$0.000060,,94,373,positive,@ChipotleTweets Thanks Becky! Just feeling sorry for myself because my fiancé is driving from D.C. To Mississippi tonight,30,"['feeling', 'myself', 'because', 'fiancé', 'driving']",2026-02-08T19:41:41
+95,2026-02-08T19:41:41,$0.000046,,95,347,neutral,"@115741 You won't be alone – we'll be there with you. Also, I want that llama onesie. -Becky",23,['onesie'],2026-02-08T19:41:41
+91,2026-02-08T19:41:40,$0.000028,,91,341,neutral,$3 burritos and I’m nowhere near a @ChipotleTweets 🤦🏾‍♂️,14,"['burritos', 'nowhere']",2026-02-08T19:41:40
+92,2026-02-08T19:41:40,$0.000010,,92,313,neutral,@115741 Noted 😊 -Becky,5,[],2026-02-08T19:41:40
+88,2026-02-08T19:41:39,$0.000058,,88,373,neutral,@115739 That's incredibly concerning. Please provide more details so we can investigate: https://t.co/Ax7W1Dx3Y9 -Becky,29,"['incredibly', 'concerning', 'please', 'provide', 'details']",2026-02-08T19:41:39
+89,2026-02-08T19:41:39,$0.000042,,89,345,neutral,@ChipotleTweets this is nasty. A used napkin in someone's food https://t.co/EkWiD9vhnr,21,['napkin'],2026-02-08T19:41:39
+90,2026-02-08T19:41:39,$0.000036,,90,347,neutral,@115740 Bummer. I'm so sorry. How far away is the closest location? -Becky,18,"['bummer', 'closest', 'location']",2026-02-08T19:41:39
+85,2026-02-08T19:41:38,$0.000036,,85,341,neutral,@ChipotleTweets can I dress up as myself and still qualify for a BOORITO?,18,"['myself', 'qualify', 'boorito']",2026-02-08T19:41:38
+86,2026-02-08T19:41:38,$0.000040,,86,350,neutral,"@115738 That's the best kind of trick-or-treating. All treats, my friend. -Becky",20,"['treats', 'friend']",2026-02-08T19:41:38
+87,2026-02-08T19:41:38,$0.000060,,87,368,neutral,"Every year, my trick-or-treating routine is walking to Chipotle, spending 3 dollars and walking back home. @ChipotleTweets",30,"['routine', 'walking', 'chipotle', 'spending', 'dollars']",2026-02-08T19:41:38
+83,2026-02-08T19:41:37,$0.000022,,83,332,neutral,"@ChipotleTweets Tried, didn't work. How rude :/",11,[],2026-02-08T19:41:37
+84,2026-02-08T19:41:37,$0.000014,,84,327,neutral,@115737 Give it a try. -Tara,7,[],2026-02-08T19:41:37
+80,2026-02-08T19:41:36,$0.000028,,80,341,neutral,@115736 All of our U.S. locations are participating! -Becky,14,"['locations', 'participating']",2026-02-08T19:41:36
+81,2026-02-08T19:41:36,$0.000068,,81,378,neutral,"Btw @ChipotleTweets giving out $3 burritos if you dress up for Halloween 🎃 Call your Chipotle to make sure, they’re doing it @ select ones",34,"['giving', 'burritos', 'halloween', 'chipotle', 'select']",2026-02-08T19:41:36
+82,2026-02-08T19:41:36,$0.000032,,82,337,neutral,@115737 My apologies for that. Just sent you a DM to help. -Becky,16,['apologies'],2026-02-08T19:41:36
+77,2026-02-08T19:41:35,$0.000046,,77,348,neutral,@115735 I'm so glad we could help. Who did you work with? I'd like to share the praise. -Becky,23,['praise'],2026-02-08T19:41:35
+78,2026-02-08T19:41:35,$0.000054,,78,358,positive,@ChipotleTweets Thank you @ChipotleTweets for resolving my issue so quickly!! Y’all are the best ☺️ #fanforlife,27,"['resolving', 'quickly']",2026-02-08T19:41:35
+79,2026-02-08T19:41:35,$0.000066,,79,373,neutral,So frustrated with @ChipotleTweets 😡 Ordered dinner on Saturday using their app. Order was wrong AND they charged my credit card twice,33,"['frustrated', 'ordered', 'dinner', 'saturday', 'charged']",2026-02-08T19:41:35
+75,2026-02-08T19:41:34,$0.000038,,75,347,neutral,"@115734 I mean, Boorito is basically the adult version of Halloween... -Becky",19,"['boorito', 'basically', 'version', 'halloween']",2026-02-08T19:41:34
+76,2026-02-08T19:41:34,$0.000068,,76,381,positive,"Happy Halloween! Since I'm too old to trick or treat I now look forward to $3 booritos at @ChipotleTweets 👻 I got mine earlier, did you?",34,"['halloween', 'forward', 'booritos', 'earlier']",2026-02-08T19:41:34
+72,2026-02-08T19:41:33,$0.000018,,72,321,neutral,@115733 Nope! Still just the $3. -Becky,9,[],2026-02-08T19:41:33
+73,2026-02-08T19:41:33,$0.000032,,73,334,neutral,"@ChipotleTweets If you get queso or quac on you're bowl, its extra?",16,[],2026-02-08T19:41:33
+74,2026-02-08T19:41:33,$0.000052,,74,356,neutral,Just stop by in costume 10/31 3pm-close. Official rules: https://t.co/1HmW7QxwEh https://t.co/Wn0xErxC2z,26,"['costume', 'official']",2026-02-08T19:41:33
+69,2026-02-08T19:41:32,$0.000030,,69,333,neutral,When you're the only one in costume #boorito @ChipotleTweets,15,['costume'],2026-02-08T19:41:32
+70,2026-02-08T19:41:32,$0.000046,,70,347,neutral,@115732 That's incredibly concerning. Please tell us more here: https://t.co/Ax7W1Dx3Y9 -Becky,23,"['incredibly', 'concerning', 'please']",2026-02-08T19:41:32
+71,2026-02-08T19:41:32,$0.000050,,71,362,neutral,@ChipotleTweets no Diet Coke and a literal bone this Boorito was extra spooky! https://t.co/C4oCCtdUct,25,"['literal', 'boorito', 'spooky']",2026-02-08T19:41:32
+66,2026-02-08T19:41:31,$0.000032,,66,337,positive,@115731 Guac on! I'm happy it was such a great experience. -Becky,16,['experience'],2026-02-08T19:41:31
+67,2026-02-08T19:41:31,$0.000058,,67,375,positive,"@ChipotleTweets I had excellent service tonight too! Plenty of people on the line, went very fast, everyone was kind!",29,"['excellent', 'service', 'tonight', 'plenty', 'people']",2026-02-08T19:41:31
+68,2026-02-08T19:41:31,$0.000020,,68,330,neutral,@115731 It's because you're smart. -Tara,10,['because'],2026-02-08T19:41:31
+64,2026-02-08T19:41:30,$0.000026,,64,329,neutral,@115730 Hopefully we'll get there at some point! -Becky,13,['hopefully'],2026-02-08T19:41:30
+65,2026-02-08T19:41:30,$0.000044,,65,352,neutral,hey @ChipotleTweets wanna come to Mammoth. I'll at least eat there once a week i promise,22,"['mammoth', 'promise']",2026-02-08T19:41:30
+61,2026-02-08T19:41:29,$0.000048,,61,362,neutral,"@ChipotleTweets @28 
+I don't fit in my Veggie Burrito costume #Halloween https://t.co/7tJDVpzLWn",24,"['veggie', 'burrito', 'costume']",2026-02-08T19:41:29
+62,2026-02-08T19:41:29,$0.000048,,62,353,neutral,@115729 I'm so sorry about that. Please tell us more so we can help: https://t.co/Ax7W1Dx3Y9 -Becky,24,['please'],2026-02-08T19:41:29
+63,2026-02-08T19:41:29,$0.000046,,63,346,neutral,@ChipotleTweets messed up today and didn’t give me my $3 burrito although I was dressed up 😭,23,"['messed', 'burrito', 'although', 'dressed']",2026-02-08T19:41:29
+58,2026-02-08T19:41:28,$0.000018,,58,323,neutral,@115725 fix your app it won't even open,9,[],2026-02-08T19:41:28
+59,2026-02-08T19:41:28,$0.000022,,59,326,positive,@115728 I still think you look great! -Becky,11,[],2026-02-08T19:41:28
+60,2026-02-08T19:41:28,$0.000024,,60,329,neutral,@ChipotleTweets @ChipotleTweets Becky is very nice,12,[],2026-02-08T19:41:28
+55,2026-02-08T19:41:27,$0.000042,,55,355,neutral,"@115724 In what area are you located? All of your services are down at this time?
+^HSB",21,"['located', 'services']",2026-02-08T19:41:27
+56,2026-02-08T19:41:27,$0.000068,,56,382,neutral,".@VerizonSupport @115725 @115726                                                 &gt;All of VERIZON IS DOWN&lt;
+When can we expect a fix ?",34,"['verizon', 'expect']",2026-02-08T19:41:27
+57,2026-02-08T19:41:27,$0.000022,,57,326,neutral,"@115727 Which app are you referring too? 
+^ACM",11,['referring'],2026-02-08T19:41:27
+53,2026-02-08T19:41:26,$0.000044,,53,351,neutral,@115723 What did we do to make you feel this way and how can we fix things between us? ^KMG,22,"['things', 'between']",2026-02-08T19:41:26
+54,2026-02-08T19:41:26,$0.000018,,54,323,negative,@115722 is the worst ISP I’ve ever had,9,[],2026-02-08T19:41:26
+50,2026-02-08T19:41:25,$0.000008,,50,321,neutral,@VerizonSupport Yep,4,[],2026-02-08T19:41:25
+51,2026-02-08T19:41:25,$0.000022,,51,334,neutral,"@115723 Are all your services cutting out?
+^ACM",11,"['services', 'cutting']",2026-02-08T19:41:25
+52,2026-02-08T19:41:25,$0.000030,,52,336,neutral,@VerizonSupport Cuts out every 20 minutes this is ridiculous,15,"['minutes', 'ridiculous']",2026-02-08T19:41:25
+47,2026-02-08T19:41:24,$0.000034,,47,348,neutral,"@115723 Did the lights change on the router when this happened?
+^JAY",17,"['lights', 'change', 'router', 'happened']",2026-02-08T19:41:24
+48,2026-02-08T19:41:24,$0.000032,,48,345,neutral,@VerizonSupport Just randomly boots me offline there it goes again,16,"['randomly', 'offline']",2026-02-08T19:41:24
+49,2026-02-08T19:41:24,$0.000058,,49,361,neutral,"@115723 Do you have our Fios service?  When services go out, does the internet light on the router change color? ^BCW",29,"['service', 'services', 'internet', 'router', 'change']",2026-02-08T19:41:24
+44,2026-02-08T19:41:23,$0.000064,,44,368,neutral,"@115722 tried to pay a bill for 60 days. No service, rude CS, and several transfers. Look up my equipment # and give me an acct #!",32,"['service', 'several', 'transfers', 'equipment']",2026-02-08T19:41:23
+45,2026-02-08T19:41:23,$0.000018,,45,332,neutral,"@115723 Is the light on top red?
+^JAY",9,[],2026-02-08T19:41:23
+46,2026-02-08T19:41:23,$0.000050,,46,367,neutral,"@VerizonSupport Don’t know, router is downstairs. But it’s just the WiFi Nothing connected to Ethernet",25,"['router', 'downstairs', 'nothing', 'connected', 'ethernet']",2026-02-08T19:41:23
+42,2026-02-08T19:41:22,$0.000074,,42,374,neutral,@115722 Nobody can find my account or number. I walked out of a store with this. I've explained that they can find my acct via my devices serial #..,37,"['nobody', 'account', 'number', 'walked', 'explained']",2026-02-08T19:41:22
+43,2026-02-08T19:41:22,$0.000032,,43,346,neutral,"@115721 Are you referring to wireless or residential service?
+^JAY",16,"['referring', 'wireless', 'residential', 'service']",2026-02-08T19:41:22
+39,2026-02-08T19:41:21,$0.000070,,39,376,neutral,"@115721 We can use the order number to locate the account but will need to do so in our secure one on one chat. Please follow and DM us. 
+^HSB",35,"['number', 'locate', 'account', 'secure', 'please']",2026-02-08T19:41:21
+40,2026-02-08T19:41:21,$0.000036,,40,348,neutral,@115722 MD. And this was sent to the wrong address https://t.co/dMQ1WZXJOk,18,['address'],2026-02-08T19:41:21
+41,2026-02-08T19:41:21,$0.000048,,41,363,neutral,"@115721 Hello Duke, Do you have a copy of your bill? What state are your services located in?
+^NHP",24,"['services', 'located']",2026-02-08T19:41:21
+37,2026-02-08T19:41:20,$0.000044,,37,354,neutral,"@115721 We would not be able to verify anything without authenticating your account.
+^JAY",22,"['verify', 'anything', 'without', 'authenticating', 'account']",2026-02-08T19:41:20
+38,2026-02-08T19:41:20,$0.000076,,38,390,neutral,"@VerizonSupport How? I have my phone number and email, that's it. How did I get equipment and service? I'm literally trying to pay and nobody can find me?",38,"['number', 'equipment', 'service', 'literally', 'trying']",2026-02-08T19:41:20
+34,2026-02-08T19:41:19,$0.000068,,34,377,neutral,@VerizonSupport My friend is without internet we need to play videogames together please our skills diminish every moment without internetz,34,"['friend', 'without', 'internet', 'videogames', 'together']",2026-02-08T19:41:19
+35,2026-02-08T19:41:19,$0.000036,,35,351,neutral,"@115721 Please follow and DM us so that we can look into this order. 
+^HSB",18,"['please', 'follow']",2026-02-08T19:41:19
+36,2026-02-08T19:41:19,$0.000052,,36,367,neutral,@VerizonSupport What else can I provide? They refuse to help me because they cannot validate the account...,26,"['provide', 'refuse', 'because', 'cannot', 'validate']",2026-02-08T19:41:19
+31,2026-02-08T19:41:18,$0.000032,,31,333,neutral,"@115719 Awesome! If you ever need us we are just a tweet away.
+^HSB",16,['awesome'],2026-02-08T19:41:18
+32,2026-02-08T19:41:18,$0.000052,,32,368,negative,somebody from @VerizonSupport please help meeeeee 😩😩😩😩 I'm having the worst luck with your customer service,26,"['somebody', 'please', 'meeeeee', 'having', 'customer']",2026-02-08T19:41:18
+33,2026-02-08T19:41:18,$0.000020,,33,322,neutral,"@115720 Have your friend message us.
+^ACM",10,"['friend', 'message']",2026-02-08T19:41:18
+28,2026-02-08T19:41:17,$0.000052,,28,364,neutral,My picture on @Ask_Spectrum pretty much every day. Why should I pay $171 per month? https://t.co/U6ptkQa5Ik,26,"['picture', 'pretty', 'should']",2026-02-08T19:41:17
+29,2026-02-08T19:41:17,$0.000048,,29,349,neutral,"@115719 Help has arrived! We are sorry to see that you are having trouble. How can we help?
+^HSB",24,"['arrived', 'having', 'trouble']",2026-02-08T19:41:17
+30,2026-02-08T19:41:17,$0.000030,,30,338,positive,"@VerizonSupport I finally got someone that helped me, thanks!",15,"['finally', 'someone', 'helped']",2026-02-08T19:41:17
+26,2026-02-08T19:41:16,$0.000060,,26,360,neutral,"Yo @Ask_Spectrum, your customer service reps are super nice— but imma start trippin if y’all don’t get my service going!",30,"['customer', 'service', 'trippin']",2026-02-08T19:41:16
+27,2026-02-08T19:41:16,$0.000060,,27,365,neutral,@115718 I apologize for the inconvenience. I will be glad to assist you. Can you DM me your Name and acct # or phone #? -JB,30,"['apologize', 'inconvenience', 'assist']",2026-02-08T19:41:16
+23,2026-02-08T19:41:15,$0.000074,,23,374,neutral,@115716 The information pertaining to the account assumption is correct.  This does need to be done at a local outlet wit... https://t.co/P7XCmTzPQj,37,"['information', 'pertaining', 'account', 'assumption', 'correct']",2026-02-08T19:41:15
+24,2026-02-08T19:41:15,$0.000044,,24,354,neutral,actually that's a broken link you sent me and incorrect information https://t.co/V4yfrHR8VI,22,"['actually', 'broken', 'incorrect', 'information']",2026-02-08T19:41:15
+25,2026-02-08T19:41:15,$0.000054,,25,359,positive,"@115717 Hello, My apologies for any frustrations or inconvenience. I’d be happy to look into this for you? ^MG",27,"['apologies', 'frustrations', 'inconvenience']",2026-02-08T19:41:15
+21,2026-02-08T19:41:14,$0.000068,,21,371,neutral,@Ask_Spectrum The correct way to do it is via an OCS Account Takeover and email Consent Form it does not need to be done in a local office,34,"['correct', 'account', 'takeover', 'consent', 'office']",2026-02-08T19:41:14
+22,2026-02-08T19:41:14,$0.000070,,22,378,neutral,@Ask_Spectrum That is INCORRECT information I have the form in front of me that is faxed over-maybe you need to maintain up to date information,35,"['incorrect', 'information', 'maintain']",2026-02-08T19:41:14
+18,2026-02-08T19:41:13,$0.000074,,18,374,neutral,"@115716 Our department is part of the corporate office.  If you're particular area has gone to this format, we were unawa... https://t.co/P7XCmTzPQj",37,"['department', 'corporate', 'office', 'particular', 'format']",2026-02-08T19:41:13
+19,2026-02-08T19:41:13,$0.000038,,19,343,neutral,@Ask_Spectrum I received this from your corporate office would you like a copy?,19,"['received', 'corporate', 'office']",2026-02-08T19:41:13
+20,2026-02-08T19:41:13,$0.000012,,20,322,positive,@115716 No thank you. ^JK,6,[],2026-02-08T19:41:13
+15,2026-02-08T19:41:12,$0.000082,,15,384,neutral,"@115714 whenever I contact customer support, they tell me I have shortcode enabled on my account, but I have never in the 4 years I've tried https://t.co/0G98RtNxPK",41,"['whenever', 'contact', 'customer', 'support', 'shortcode']",2026-02-08T19:41:12
+16,2026-02-08T19:41:12,$0.000020,,16,330,neutral,@115716 What information is incorrect? ^JK,10,"['information', 'incorrect']",2026-02-08T19:41:12
+17,2026-02-08T19:41:12,$0.000052,,17,353,neutral,@Ask_Spectrum Would you like me to email you a copy of one since Spectrum is not updating your training?,26,"['spectrum', 'updating', 'training']",2026-02-08T19:41:12
+13,2026-02-08T19:41:11,$0.000046,,13,348,positive,"@115714 y’all lie about your “great” connection. 5 bars LTE, still won’t load something. Smh.",23,"['connection', 'something']",2026-02-08T19:41:11
+14,2026-02-08T19:41:11,$0.000050,,14,361,neutral,@115715 Please send me a private message so that I can send you the link to access your account. -FR,25,"['please', 'private', 'message', 'access', 'account']",2026-02-08T19:41:11
+10,2026-02-08T19:41:10,$0.000066,,10,367,neutral,"@115713 We understand your concerns and we'd like for you to please send us a Direct Message, so that we can further assist you. -AA",33,"['understand', 'concerns', 'please', 'direct', 'message']",2026-02-08T19:41:10
+11,2026-02-08T19:41:10,$0.000026,,11,333,neutral,@sprintcare Since I signed up with you....Since day 1,13,['signed'],2026-02-08T19:41:10
+12,2026-02-08T19:41:10,$0.000056,,12,364,neutral,"@115713 H there! We'd definitely like to work with you on this, how long have you been experiencing this issue? -AA",28,"['definitely', 'experiencing']",2026-02-08T19:41:10
+7,2026-02-08T19:41:09,$0.000020,,7,321,negative,@sprintcare is the worst customer service,10,"['customer', 'service']",2026-02-08T19:41:09
+8,2026-02-08T19:41:09,$0.000048,,8,366,neutral,"@115713 This is saddening to hear. Please shoot us a DM, so that we can look into this for you. -KC",24,"['saddening', 'please']",2026-02-08T19:41:09
+9,2026-02-08T19:41:09,$0.000044,,9,358,neutral,@sprintcare You gonna magically change your connectivity for me and my whole family ? 🤥 💯,22,"['magically', 'change', 'connectivity', 'family']",2026-02-08T19:41:09
+4,2026-02-08T19:41:08,$0.000062,,4,368,neutral,@115712 Please send us a Private Message so that we can further assist you. Just click ‘Message’ at the top of your profile.,31,"['please', 'private', 'message', 'further', 'assist']",2026-02-08T19:41:08
+5,2026-02-08T19:41:08,$0.000008,,5,317,neutral,@sprintcare I did.,4,[],2026-02-08T19:41:08
+6,2026-02-08T19:41:08,$0.000052,,6,366,neutral,"@115712 Can you please send us a private message, so that I can gain further details about your account?",26,"['please', 'private', 'message', 'further', 'details']",2026-02-08T19:41:08
+2,2026-02-08T19:41:07,$0.000022,,2,333,neutral,@sprintcare and how do you propose we do that,11,['propose'],2026-02-08T19:41:07
+3,2026-02-08T19:41:07,$0.000040,,3,342,neutral,@sprintcare I have sent several private messages and no one is responding as usual,20,"['several', 'private', 'messages', 'responding']",2026-02-08T19:41:07
+1,2026-02-08T19:41:06,$0.000060,,1,374,neutral,@115712 I understand. I would like to assist you. We would need to get you into a private secured link to further assist.,30,"['understand', 'assist', 'private', 'secured', 'further']",2026-02-08T19:41:06

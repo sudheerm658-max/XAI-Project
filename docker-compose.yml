@@ -1,0 +1,39 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: grok-insights-backend
+    ports:
+      - "8000:8000"
+      - "8001:8001"  # Metrics
+    environment:
+      DATABASE_URL: sqlite:///./data/data.db
+      GROK_MODE: mock
+      DEBUG: "false"
+      LOG_LEVEL: INFO
+      RATE_LIMIT_ENABLED: "true"
+      RATE_LIMIT_REQUESTS: 120
+      RATE_LIMIT_WINDOW_SECONDS: 60
+      MIN_BATCH_SIZE: 1
+      MAX_BATCH_SIZE: 50
+      START_BATCH_SIZE: 5
+      ERROR_THRESHOLD: 5
+      CIRCUIT_BREAKER_COOLDOWN_SECONDS: 10
+    volumes:
+      - ./data:/app/data
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+    networks:
+      - grok-network
+
+networks:
+  grok-network:
+    driver: bridge

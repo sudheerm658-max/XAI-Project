@@ -1,0 +1,156 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "grok-insights-backend"
+version = "1.0.0"
+description = "Production-ready backend for large-scale conversation analysis via Grok"
+readme = "README.md"
+license = {text = "MIT"}
+authors = [
+    {name = "Grok Insights Team", email = "info@example.com"},
+]
+keywords = ["conversational-ai", "grok", "fastapi", "async", "production"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Web Environment",
+    "Framework :: FastAPI",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Internet :: WWW/HTTP :: Servers",
+]
+requires-python = ">=3.11"
+
+dependencies = [
+    "fastapi>=0.109.0",
+    "uvicorn[standard]>=0.27.0",
+    "sqlalchemy>=2.0.23",
+    "pydantic>=2.5.0",
+    "pydantic-settings>=2.1.0",
+    "prometheus-client>=0.19.0",
+    "python-dotenv>=1.0.0",
+    "python-json-logger>=2.0.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4.3",
+    "pytest-asyncio>=0.21.1",
+    "pytest-cov>=4.1.0",
+    "pytest-env>=1.1.1",
+    "black>=23.12.0",
+    "ruff>=0.1.8",
+    "mypy>=1.7.1",
+    "isort>=5.13.2",
+    "pre-commit>=3.5.0",
+]
+
+test = [
+    "pytest>=7.4.3",
+    "pytest-asyncio>=0.21.1",
+    "pytest-cov>=4.1.0",
+    "httpx>=0.25.2",
+]
+
+postgres = [
+    "psycopg2-binary>=2.9.9",
+]
+
+docs = [
+    "mkdocs>=1.5.3",
+    "mkdocs-material>=9.4.14",
+]
+
+all = [
+    "grok-insights-backend[dev,test,postgres,docs]",
+]
+
+[project.urls]
+Homepage = "https://github.com/example/grok-insights-backend"
+Documentation = "https://github.com/example/grok-insights-backend#readme"
+Repository = "https://github.com/example/grok-insights-backend.git"
+Issues = "https://github.com/example/grok-insights-backend/issues"
+
+[tool.setuptools]
+packages = ["src.grok_insights"]
+
+[tool.setuptools.package-dir]
+"" = "src"
+
+[tool.black]
+line-length = 100
+target-version = ["py311"]
+include = '\.pyi?$'
+exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.tox
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+)/
+'''
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+select = [
+    "E",     # pycodestyle errors
+    "W",     # pycodestyle warnings
+    "F",     # pyflakes
+    "I",     # isort
+    "C",     # flake8-comprehensions
+    "B",     # flake8-bugbear
+]
+ignore = [
+    "E501",  # line too long (handled by black)
+    "W503",  # line break before binary operator
+]
+
+[tool.ruff.isort]
+known-first-party = ["src"]
+
+[tool.mypy]
+python_version = "3.11"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = false
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "prometheus_client.*"
+ignore_missing_imports = true
+
+[tool.pytest.ini_options]
+minversion = "7.0"
+addopts = "--strict-markers --verbose --maxfail=3"
+testpaths = ["tests"]
+asyncio_mode = "auto"
+python_files = "test_*.py"
+python_classes = "Test*"
+python_functions = "test_*"
+
+[tool.coverage.run]
+source = ["src"]
+omit = [
+    "src/grok_insights/__main__.py",
+]
+
+[tool.coverage.report]
+exclude_lines = [
+    "pragma: no cover",
+    "def __repr__",
+    "raise AssertionError",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "if TYPE_CHECKING:",
+]
