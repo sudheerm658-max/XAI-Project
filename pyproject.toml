@@ -77,7 +77,7 @@ Repository = "https://github.com/example/grok-insights-backend.git"
 Issues = "https://github.com/example/grok-insights-backend/issues"
 
 [tool.setuptools]
-packages = ["src.grok_insights"]
+packages = ["grok_insights"]
 
 [tool.setuptools.package-dir]
 "" = "src"
