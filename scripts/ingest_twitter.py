@@ -25,12 +25,15 @@ async def ingest_conversations_bulk(session: aiohttp.ClientSession, api_url: str
             json=payload,
             timeout=aiohttp.ClientTimeout(total=30),
         ) as resp:
+            text = await resp.text()
             if resp.status in (202, 200):
                 data = await resp.json()
                 return data.get('ingested', len(conversations))
             else:
-                text = await resp.text()
-                print(f"  Unexpected status {resp.status}: {text[:200]}")
+                print(f"  ERROR {resp.status}: {text}")
+                # For debugging: print first conversation in batch
+                if conversations:
+                    print(f"  Sample conversation in batch: {conversations[0]}")
     except Exception as e:
         print(f"  Ingestion error: {e}")
         import traceback
@@ -62,10 +65,7 @@ async def ingest_twitter_csv(api_url: str, csv_file: str, batch_size: int = 50, 
             conversations.append({
                 'external_id': f"tweet_{row.get('tweet_id', i)}",
                 'text': text,
-                'author': row.get('author_id'),
-                'created_at': row.get('created_at'),
-                'inbound': row.get('inbound'),
-                'raw': dict(row),
+                'raw': dict(row),  # Store all original fields in raw
             })
     
     print(f"Loaded {len(conversations)} conversations from Twitter CSV")
