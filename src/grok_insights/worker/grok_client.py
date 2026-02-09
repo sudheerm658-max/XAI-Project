@@ -147,6 +147,7 @@ async def _analyze_real(text: str) -> Dict[str, Any]:
                             {"role": "system", "content": system_prompt},
                             {"role": "user", "content": text},
                         ],
+                        "stream": False,
                         "temperature": 0.0,
                         "max_tokens": 500,
                     },

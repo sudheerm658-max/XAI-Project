@@ -44,10 +44,10 @@ class Settings(BaseSettings):
     DATABASE_MAX_OVERFLOW: int = 10
     
     # Grok Analysis
-    GROK_MODE: str = "mock"  # mock, real
-    GROK_API_KEY: str = ""
+    GROK_MODE: str = "real"  # mock, real
+    GROK_API_KEY: str = ""  # Set via GROK_API_KEY env variable in .env
     GROK_API_BASE_URL: str = "https://api.x.ai/v1"
-    GROK_MODEL: str = "grok-1"
+    GROK_MODEL: str = "grok-4-latest"
     GROK_COST_PER_1K: float = 0.002  # $ per 1000 tokens
     # HTTP & retry tuning for real Grok API
     GROK_HTTP_TIMEOUT: float = 30.0  # per-request timeout (seconds)
@@ -74,7 +74,7 @@ class Settings(BaseSettings):
     # Filtering & Optimization
     ENABLE_CHEAP_PREFILTER: bool = True
     ENABLE_CACHING: bool = True
-    MIN_TEXT_LENGTH: int = 20
+    MIN_TEXT_LENGTH: int = 5
     
     # Logging & Monitoring
     ENABLE_PROMETHEUS_METRICS: bool = True
